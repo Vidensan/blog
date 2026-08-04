@@ -1,7 +1,7 @@
 version: 1
 project:
-  title: Jane Doe
-  description: Personal website of Jane Doe, Assistant Professor at Example University, building open-source tools for data science.
+  title: Vidensan
+  description: Somebody know something
   # thumbnail: images/profile-thumbnail.webp
   # authors:
   #   - name: Jane Doe
@@ -12,9 +12,10 @@ project:
   #       - Example University
   copyright: '2026'
   keywords:
-    - Data Science
+    - AI
     - Open-source Software
     - Machine Learning
+    - Geek
   # github: username/repo
   exclude:
     - _build
@@ -34,15 +35,15 @@ project:
     - README.md
   toc:
     - file: index.md
-    - file: pages/about.md
-    - file: pages/research.md
-    - file: pages/software.md
-    - file: pages/teaching.md
-    - file: pages/talks.md
-    - file: pages/awards.md
-    - file: pages/services.md
-    - file: pages/contact.md
-    - file: pages/news.md
+    # - file: pages/about.md
+    # - file: pages/research.md
+    # - file: pages/software.md
+    # - file: pages/teaching.md
+    # - file: pages/talks.md
+    # - file: pages/awards.md
+    # - file: pages/services.md
+    # - file: pages/contact.md
+    # - file: pages/news.md
     - file: pages/blog.md
     - pattern: blog/*.md
       hidden: true
