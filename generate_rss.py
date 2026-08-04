@@ -115,7 +115,9 @@ def main() -> None:
     """Generate ``rss.xml`` and ``atom.xml`` from the ``blog/`` directory."""
     root = Path(__file__).parent
     blog_dir = root / "blog"
-    posts = [p for p in (parse_post(f) for f in blog_dir.glob("*.md")) if p]
+    
+    md_files = blog_dir.glob("**/*.md")
+    posts = [p for p in (parse_post(f) for f in md_files) if p]
     posts.sort(key=lambda p: p["date"], reverse=True)
 
     if not posts:

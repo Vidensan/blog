@@ -48,6 +48,8 @@ project:
     # - file: pages/blog.md
     - pattern: blog/*.md
       hidden: true
+    - pattern: blog/*/*.md
+      hidden: true
 site:
   options:
     logo: logo.png
@@ -57,12 +59,11 @@ site:
     # analytics_google: G-XXXXXXXXXX
     folders: true
   actions:
-    - title: RSS
-      url: https://opengeos.org/myst-cv-template/rss.xml
+    #  - title: RSS
+    #  url: https://opengeos.org/myst-cv-template/rss.xml
   template: book-theme
   parts:
     primary_sidebar_footer: ''
     footer: |
-      # [CV (PDF)](cv.pdf) |
       [GitHub](https://github.com/vidensan) |
       [Twitter](https://twitter.com/vidensan)
