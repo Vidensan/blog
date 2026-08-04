@@ -35,6 +35,7 @@ project:
     - README.md
   toc:
     - file: index.md
+    - file: pages/invest.md
     # - file: pages/about.md
     # - file: pages/research.md
     # - file: pages/software.md
