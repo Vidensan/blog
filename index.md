@@ -1,13 +1,10 @@
 ---
 title: Blog
-description: Thoughts on data science, open-source software, and teaching.
+description: 文章
 keywords:
-  - Blog
-  - Data Science
-  - Open-source
 ---
 
-# Blog
+<!-- # Blog
 
 Thoughts on data science, open-source software, and teaching.
 
@@ -20,9 +17,9 @@ Thoughts on data science, open-source software, and teaching.
 
 ## Posts
 
-### 2026
+### 2026 -->
 
-::::{grid} 1 1 2 2
+<!-- ::::{grid} 1 1 2 2
 
 :::{card} Write Journal Articles with MyST Markdown: Auto-Generate PDFs and Websites
 :link: /blog/myst-article-template
@@ -36,4 +33,4 @@ April 15, 2026 – A step-by-step tutorial on writing journal articles in MyST M
 April 10, 2026 – A step-by-step tutorial on building a personal CV website with MyST Markdown and Typst that automatically generates a PDF version of your CV.
 :::
 
-::::
+:::: -->
