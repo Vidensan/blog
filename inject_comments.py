@@ -81,7 +81,7 @@ GISCUS_SNIPPET = """
     var container = document.createElement('div');
     container.id = 'giscus-comments';
     container.style.cssText = 'margin: 2rem 0; color: var(--color-text, inherit);';
-    container.innerHTML = '<h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: inherit;">Comments</h2>';
+    container.innerHTML = '<h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: inherit;">评论</h2>';
     article.appendChild(container);
 
     var s = document.createElement('script');
