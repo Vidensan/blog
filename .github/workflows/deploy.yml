@@ -58,11 +58,11 @@ jobs:
           unzip -o fa.zip -d /tmp/fa
           cp /tmp/fa/fontawesome-free-6.7.2-desktop/otfs/*.otf fonts/
 
-      - name: Generate CV Typst source
-        run: python generate_cv.py
+      # - name: Generate CV Typst source
+      #   run: python generate_cv.py
 
-      - name: Compile CV PDF
-        run: typst compile cv.typ cv.pdf --font-path ./fonts --ignore-system-fonts
+      # - name: Compile CV PDF
+      #   run: typst compile cv.typ cv.pdf --font-path ./fonts --ignore-system-fonts
 
       - name: Build HTML Assets
         # Remove BASE_URL if using a custom domain (CNAME)
