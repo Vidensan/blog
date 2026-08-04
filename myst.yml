@@ -62,6 +62,6 @@ site:
   parts:
     primary_sidebar_footer: ''
     footer: |
-      [CV (PDF)](cv.pdf) |
+      # [CV (PDF)](cv.pdf) |
       [GitHub](https://github.com/vidensan) |
       [Twitter](https://twitter.com/vidensan)
